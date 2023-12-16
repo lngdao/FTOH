@@ -36,7 +36,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .gradient {
-  background: linear-gradient(
+  /* background: -webkit-linear-gradient(
     to right,
     #fa39ad 0%,
     #7b61ff 20%,
@@ -44,5 +44,15 @@ body::-webkit-scrollbar-thumb {
     #e5ae37 60%,
     #4cbade 80%,
     #9b6ff9 100%
+  ); */
+  background: linear-gradient(
+    to right,
+    #d62991 0%,
+    #4f36ca 20%,
+    #b04e32 40%,
+    #a98230 60%,
+    #3d94b1 80%,
+    #6a46b8 100%
   );
+  /* filter: contrast(0.8) brightness(0.8); */
 }
