@@ -42,7 +42,7 @@ function App() {
           <MobileApp />
           <TestmonialsSection />
         </div>
-        <div className="absolute top-0 flex items-center justify-between w-full h-[350px] -z-30 gradient blur-[230px]" />
+        <div className="absolute top-0 flex items-center justify-between w-full h-[350px] -z-30 gradient blur-[200px]" />
         <div className="absolute top-0 flex items-center justify-between w-full h-full -z-10 backdrop-blur-xl" />
       </div>
 

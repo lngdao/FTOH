@@ -38,9 +38,11 @@ body::-webkit-scrollbar-thumb {
 .gradient {
   background: linear-gradient(
     to right,
-    #7B61FF 20%,
+    #fa39ad 0%,
+    #7b61ff 20%,
     #de6c4c 40%,
     #e5ae37 60%,
-    #4cbade 80%
+    #4cbade 80%,
+    #9b6ff9 100%
   );
 }
