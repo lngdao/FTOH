@@ -25,14 +25,14 @@ function Hero() {
       <div
         className={`${styles.flexCenter} ${styles.absoluteFill} flex-col backdrop-brightness-50 backdrop-blur-sm`}
       >
-        <a href="https://www.esrb.org/ratings-guide/" target='_blank'>
+        <a href="https://www.esrb.org/ratings-guide/" target="_blank">
           <img
             className="absolute w-[60px] bottom-8 left-10 opacity-70 max-lg:hidden hover:opacity-90 cursor-pointer"
             src={esrb}
             alt=""
           />
         </a>
-        <div className={`${styles.flexCenter} flex-col mb-14`}>
+        <div className={`${styles.flexCenter} flex-col mb-10`}>
           <img
             src={logo}
             alt=""
@@ -58,7 +58,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className="fixed bottom-0 flex items-center self-center gap-16 pb-8 max-sm:gap-10 max-sm:pb-5">
+        <div className="absolute flex items-center self-center gap-16 bottom-8 max-sm:gap-10 max-sm:bottom-5">
           <div className="flex items-center gap-2 cursor-pointer opacity-70 hover:opacity-95">
             <img className="w-[36px] max-sm:w-[20px]" src={steamIcon} alt="" />
             <p className="text-lg font-medium text-white max-md:hidden">
