@@ -5,7 +5,7 @@ import { styles } from '../common';
 
 const MobileApp = () => {
   return (
-    <section className="flex flex-col-reverse grid-cols-2 gap-8 mt-12 md:grid">
+    <section className="flex flex-col-reverse grid-cols-2 gap-8 mt-12 md:grid md:px-14">
       <div className="flex flex-col justify-center gap-2">
         <h1 className="text-4xl font-bold max-md:text-3xl">
           Upcoming on mobile? Of course!

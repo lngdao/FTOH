@@ -1,5 +1,4 @@
 import game_trailer from '../assets/game_trailer.mp4';
-// import hero_video from './assets/hero_video.mp4';
 import logo from '../assets/logo.png';
 import ggplayLogo from '../assets/gplay_icon.png';
 import appleStoreLogo from '../assets/apple_store_icon.png';

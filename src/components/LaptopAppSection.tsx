@@ -3,7 +3,7 @@ import { styles } from '../common';
 
 function LaptopAppSection() {
   return (
-    <section className="flex flex-col grid-cols-2 gap-8 mt-16 md:grid" id="download">
+    <section className="flex flex-col grid-cols-2 gap-8 mt-16 md:grid md:px-14" id="download">
       <div className={`${styles.flexCenter}`}>
         <img
           className="max-w-[500px] max-md:w-[340px]"
