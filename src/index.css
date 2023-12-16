@@ -25,12 +25,22 @@ ol {
 body::-webkit-scrollbar {
   width: 8px;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: #FF9B28;
-  outline: 1px solid #19191F;
+  background-color: #ff9b28;
+  outline: 1px solid #19191f;
+}
+
+.gradient {
+  background: linear-gradient(
+    to right,
+    #7B61FF 20%,
+    #de6c4c 40%,
+    #e5ae37 60%,
+    #4cbade 80%
+  );
 }

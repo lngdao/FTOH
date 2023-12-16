@@ -2,7 +2,7 @@ import { styles } from '../common';
 
 function AboutSection() {
   return (
-    <div className={`${styles.flexCenter} flex-col`}>
+    <div className={`${styles.flexCenter} flex-col h-[300px]`}>
       <p className="text-2xl font-bold text-center">
         WELCOME TO THE DARK FUTURE
       </p>
