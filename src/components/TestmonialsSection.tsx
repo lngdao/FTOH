@@ -30,7 +30,7 @@ function TestmonialsSection() {
               Mind-blowing graphics and addictive gameplay! A must-play
               masterpiece.
             </p>
-            <p className="text-lg font-semibold">Johnny Sins</p>
+            <p className="text-lg font-semibold">Jimmy Ti</p>
           </div>
           <div className="relative col-span-2">
             <img
@@ -58,7 +58,7 @@ function TestmonialsSection() {
               Addictive desktop experience with constant exciting updates.
               Highly recommend!
             </p>
-            <p className="text-lg font-semibold">Sins Johnny</p>
+            <p className="text-lg font-semibold">Johnny Long</p>
           </div>
           <div className="relative col-span-2">
             <img

@@ -67,13 +67,21 @@ const Footer = () => {
       <div className={`${styles.flexCenter} h-[70px] mt-16 mb-4`}>
         <p className="font-light text-[#777B9E] text-center">
           Flag Tower of Hanoi © 2023 <br />
-          Developed with ☕️ by{' '}
+          Created with ❤️ by{' '}
           <a
             className="text-primary"
             target="_blank"
             href="https://github.com/lngdao"
           >
             lngdao
+          </a>{' '}
+          and{' '}
+          <a
+            className="text-primary"
+            target="_blank"
+            href="https://www.behance.net/hugannh3"
+          >
+            Hung Anh
           </a>
         </p>
       </div>
