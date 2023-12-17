@@ -3,6 +3,8 @@ import { HashLink } from 'react-router-hash-link';
 import { Menu } from 'lucide-react';
 import { useOverlayMenuContext } from '../context';
 
+import logo from '../assets/mini_logo.png';
+
 function Navbar() {
   const { setIsOpen } = useOverlayMenuContext();
 
@@ -13,7 +15,8 @@ function Navbar() {
         to={'/#home'}
         className="text-3xl font-black text-primary"
       >
-        FTOH
+        <img className="w-[100px]" src={logo} alt="logo" />
+        {/* FTOH */}
       </HashLink>
       <div
         onClick={() => setIsOpen(true)}

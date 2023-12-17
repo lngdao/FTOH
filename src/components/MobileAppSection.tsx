@@ -32,7 +32,7 @@ const MobileApp = () => {
       </div>
       <div className={`${styles.flexCenter}`}>
         <img
-          className="max-w-[500px] max-md:w-[340px]"
+          className="max-w-[550px] max-md:w-[350px]"
           src={mockphone}
           alt=""
         />

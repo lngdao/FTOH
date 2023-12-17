@@ -5,10 +5,10 @@ const Footer = () => {
     <section>
       <div className="flex justify-between max-md:flex-col max-md:gap-10 gap-14">
         <div className="flex flex-col justify-between max-md:gap-4 max-md:items-center">
-          <p className="text-xl font-black text-white">
-            FLAG TOWER OF <span className="text-primary">HANOI</span>
+          <p className="text-xl font-extrabold text-white">
+            FLAG TOWER OF <span className="font-black text-primary">HANOI</span>
           </p>
-          <p className="text-3xl font-black text-left max-sm:text-2xl">
+          <p className="text-3xl font-extrabold text-left max-sm:text-2xl">
             Are you ready to fight?
           </p>
           <div
