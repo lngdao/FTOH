@@ -1,4 +1,4 @@
-import React, { PropsWithChildren, useState } from 'react';
+import React, { PropsWithChildren, useEffect, useState } from 'react';
 
 export interface OverlayMenuContextProps {
   isOpen: boolean;
@@ -18,6 +18,13 @@ export const useOverlayMenuContext = () => React.useContext(OverlayMenuContext);
 
 export function OverlayMenuProvider({ children }: PropsWithChildren) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  useEffect(() => {
+    const body = document.body;
+
+    if (isOpen) body.classList.add('overflow-hidden');
+    else body.classList.remove('overflow-hidden');
+  }, [isOpen]);
 
   return (
     <OverlayMenuContext.Provider value={{ isOpen, setIsOpen }}>

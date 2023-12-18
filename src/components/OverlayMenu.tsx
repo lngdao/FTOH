@@ -10,7 +10,7 @@ function OverlayMenu() {
   };
 
   return (
-    <div className="fixed top-0 bottom-0 left-0 right-0 z-50 items-center justify-center w-screen h-screen duration-700 md:hidden backdrop-blur-2xl">
+    <div className="fixed top-0 bottom-0 left-0 right-0 z-50 items-center justify-center w-screen h-screen overflow-hidden duration-700 md:hidden backdrop-blur-2xl">
       <X
         onClick={closeMenu}
         className="absolute cursor-pointer right-6 top-5 hover:text-slate-200"
