@@ -4,14 +4,15 @@ import { styles } from './common';
 import Footer from './components/Footer';
 import MobileApp from './components/MobileAppSection';
 import OverlayMenu from './components/OverlayMenu';
-import { useOverlayMenuContext } from './context';
+import { useOverlayContext } from './context';
 import Hero from './components/Hero';
 import LaptopAppSection from './components/LaptopAppSection';
 import AboutSection from './components/AboutSection';
 import TestmonialsSection from './components/TestmonialsSection';
+import OverlayTrailer from './components/OverlayTrailer';
 
 function App() {
-  const { isOpen } = useOverlayMenuContext();
+  const { isMenuOpen, isTrailerOpen } = useOverlayContext();
 
   return (
     // <Scrollbar>
@@ -56,7 +57,8 @@ function App() {
           <Footer />
         </div>
       </div>
-      {isOpen && <OverlayMenu />}
+      {isTrailerOpen && <OverlayTrailer />}
+      {isMenuOpen && <OverlayMenu />}
     </div>
     // {/* </Scrollbar> */}
   );

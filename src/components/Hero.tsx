@@ -8,8 +8,11 @@ import xboxIcon from '../assets/xbox_icon.png';
 import esrb from '../assets/ESRB_Teen.png';
 
 import { styles } from '../common';
+import { useOverlayContext } from '../context';
 
 function Hero() {
+  const { setIsTrailerOpen } = useOverlayContext();
+
   return (
     <>
       <video
@@ -45,6 +48,7 @@ function Hero() {
           </p>
           <div className="flex gap-4 mt-5">
             <div
+              onClick={() => setIsTrailerOpen(true)}
               className={`${styles.flexCenter} w-[230px] py-4 max-md:py-2 max-md:w-[130px] bg-[#475FF8] rounded-md  hover:bg-[#324dfa] hover:scale-x-105 cursor-pointer`}
             >
               <p className="text-lg font-semibold text-white">Trailer</p>

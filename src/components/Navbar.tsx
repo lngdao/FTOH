@@ -1,12 +1,12 @@
 import { styles } from '../common';
 import { HashLink } from 'react-router-hash-link';
 import { Menu } from 'lucide-react';
-import { useOverlayMenuContext } from '../context';
+import { useOverlayContext } from '../context';
 
 import logo from '../assets/mini_logo.png';
 
 function Navbar() {
-  const { setIsOpen } = useOverlayMenuContext();
+  const { setIsMenuOpen } = useOverlayContext();
 
   return (
     <nav className="flex justify-between h-[65px] items-center">
@@ -19,7 +19,7 @@ function Navbar() {
         {/* FTOH */}
       </HashLink>
       <div
-        onClick={() => setIsOpen(true)}
+        onClick={() => setIsMenuOpen(true)}
         className="cursor-pointer md:hidden hover:text-primary"
       >
         <Menu size={28} />

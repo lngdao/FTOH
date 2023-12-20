@@ -1,12 +1,12 @@
 import { X } from 'lucide-react';
 import { HashLink } from 'react-router-hash-link';
-import { useOverlayMenuContext } from '../context';
+import { useOverlayContext } from '../context';
 
 function OverlayMenu() {
-  const { setIsOpen } = useOverlayMenuContext();
+  const { setIsMenuOpen } = useOverlayContext();
 
   const closeMenu = () => {
-    setIsOpen(false);
+    setIsMenuOpen(false);
   };
 
   return (
