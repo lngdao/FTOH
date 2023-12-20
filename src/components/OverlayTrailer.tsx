@@ -1,4 +1,3 @@
-import React from 'react';
 import { useOverlayContext } from '../context';
 
 function OverlayTrailer() {
