@@ -58,7 +58,7 @@ function TestmonialsSection() {
               Addictive desktop experience with constant exciting updates.
               Highly recommend!
             </p>
-            <p className="text-lg font-semibold">Johnny JQK</p>
+            <p className="text-lg font-semibold">Johnny Silverhand</p>
           </div>
           <div className="relative col-span-2">
             <img

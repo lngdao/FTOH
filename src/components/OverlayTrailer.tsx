@@ -10,6 +10,7 @@ function OverlayTrailer() {
         className="absolute top-0 bottom-0 left-0 right-0 -z-10"
       />
       <iframe
+        allow="autoplay"
         src="https://www.youtube.com/embed/-1I9KtnVP1U?autoplay=1"
         className="w-[1280px] aspect-video"
       />
